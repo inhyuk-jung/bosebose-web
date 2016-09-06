@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../lib/justifiedGallery.min/justifiedGallery.min.css">
+
+
+</head>
+<body>
+
+  <!--<div class="storeRegForm">-->
+    <!--<form name="storeRegForm" id="storeRegForm">-->
+      <!--<div class="box">-->
+        <!--<input type="text" name="name" id="s_name" placeholder="이름" class="iText" >-->
+        <!--<br>-->
+        <!--<input type="text" name="address" id="s_address" placeholder="주소" class="iText" >-->
+        <!--<br>-->
+        <!--<input type="text" name="introduction" id="s_intro" placeholder="설명" class="iText" >-->
+        <!--<br>-->
+        <!--<input type="text" name="business_hour" id="s_hour" placeholder="시간" class="iText" >-->
+        <!--<br>-->
+        <!--<input type="text" name="holiday" id="s_holiday" placeholder="쉬는날" class="iText">-->
+        <!--<br>-->
+        <!--<input type="text" name="phone" id="s_phone" placeholder="연락처" class="iText">-->
+        <!--<br>-->
+        <!--<div class="filebox">-->
+          <!--<div id="s_image" style="width:150px; max-width:150px; height:150px; border:1px solid #000; overflow: hidden; "></div>-->
+          <!--<input type="file" name="image" id="s_image_file" accept="image/*" capture="camera" onchange="getThumbnailPrivew(this,$('#s_image'))" />-->
+        <!--</div>-->
+        <!--<p>-->
+        <!--</p>-->
+      <!--</div>-->
+      <!--<input type="button" name="submit" value="가게등록" id="submitStoreReg">-->
+    <!--</form>-->
+  <!--</div>-->
+
+
+  <h1>Gallery!</h1>
+  <button id="logOut">로그아웃</button>
+  <button id="editMyInfo">내 정보 수정</button>
+  <button id="addItem">상품 등록</button>  
+  <div id="mygallery" >
+    <a class="itemImg" id="1">
+        <img alt="Title 1" src="../imgs/1.png"/>
+    </a>
+    <a class="itemImg" id="2">
+      <img alt="Title 2" src="../imgs/2.png"/>
+    </a>
+    <a class="itemImg" id="3">
+      <img alt="Title 3" src="../imgs/3.png"/>
+    </av>
+    <a class="itemImg" id="4">
+      <img alt="Title 4" src="../imgs/4.png"/>
+    </a>
+    <!-- other images... -->
+  </div>
+
+
+  <script  
+    src="https://code.jquery.com/jquery-1.12.4.min.js"  
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" 
+    crossorigin="anonymous">
+  </script>
+  <script src="../lib/justifiedGallery.min/jquery.justifiedGallery.min.js"></script>    
+  <script src="../controller/commonCtrl.js"></script>
+  <script src="../controller/listCtrl.js"></script>
+  <script language="javascript" type="text/javascript" src="../controller/uploadCtrl.js"></script>
+
+</body>
+</html>
