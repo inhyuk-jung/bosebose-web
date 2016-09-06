@@ -9,26 +9,15 @@
 
 </head>
 <body>
-<h1>정보 수정</h1>
+<h1>가게 정보</h1>
 <div class="myInfoForm">
-    <h2>내 정보 수정</h2>
+    조회수 : <span id="hit">0</span>
+    <br>
+    아이템수 : <span id="item_count">0</span>
+    <br>
+    좋아요수 : <span id="like_count">0</span>
+    <br>
     <form name="myInfoForm">
-        <div class="box">
-            <input type="text" name="email" id="email" placeholder="email" class="iText" >
-            <br>
-            <input type="password" name="password" id="password" placeholder="password" class="iText">
-            <br>
-            <input type="text" name="name" id="name" placeholder="name" class="iText">
-            <br>
-        </div>
-        <input type="button" name="submit" value="수정하기" id="submitEditMyInfo">
-    </form>
-</div>
-
-
-<div class="storeRegForm">
-    <h2>가게 정보 수정</h2>
-    <form name="storeRegForm" id="storeRegForm">
         <div class="box">
             <input type="text" name="name" id="s_name" placeholder="이름" class="iText" >
             <br>
@@ -49,9 +38,11 @@
             <p>
             </p>
         </div>
-        <input type="button" name="submit" value="가게정보수정" id="submitStoreInFo">
+        <input type="button" name="submit" value="수정하기" id="submitEditMyInfo">
     </form>
 </div>
+
+
 
 
 <script
